@@ -56,6 +56,16 @@ ul, ol {
 .header .nav a:hover, .header .nav a::after {
     background-color: transparent;
 }
+ .nav {
+            list-style: none;
+            margin: 0;
+            padding: 0 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .nav > li {
+            margin-right: 24px;
+        }
 
 .video-container{
     top: 0;
